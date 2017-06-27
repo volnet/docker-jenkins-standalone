@@ -2,10 +2,11 @@
 
 ## What is it?
 
-It is a project to run Jenkins(https://jenkins.io) in docker by :
-
+It is a project to run Jenkins(https://jenkins.io) in docker.
 
 ## How to use?
+
+You can run it by terminal use docker command line:
 
 ```
 docker run -d -p 8080:8080 -v $(pwd)/jenkins:/root/.jenkins/ --name my-jenkins volnet/jenkins-standalone
